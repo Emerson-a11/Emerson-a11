@@ -1,13 +1,50 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Emerson's Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 0.2em;
+        }
+        p {
+            font-size: 1.3em;
+            max-width: 600px;
+        }
+        .button {
+            background: #fff;
+            color: #1e3c72;
+            border: none;
+            padding: 0.7em 1.5em;
+            margin-top: 2em;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .button:hover {
+            background: #ddd;
+        }
+    </style>
 </head>
 <body>
-    <h1> Hello World </h1>
-    <h2> I am creating look at me </h2>
-
+    <h1>Welcome to My Page!</h1>
+    <p>Hi, I'm Emerson 👋. This is my first published website using GitHub Pages. I'm learning to be a great web developer!</p>
+    <button class="button" onclick="alert('Thanks for visiting!')">Say Hi</button>
 </body>
 </html>
